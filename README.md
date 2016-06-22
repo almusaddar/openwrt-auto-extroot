@@ -1,3 +1,15 @@
+# A fork work of [attila-lendvai](https://github.com/attila-lendvai/openwrt-auto-extroot)
+
+# New Feature:
+- vagrant support
+- 15.05.1 support
+
+# usage:
+- clone the repo
+- run vagrant up
+- a ready made TLMR3020 will be ready
+- to change router firmware just edit the vagrant file
+
 # What
 
 It's a script to build a customized OpenWRT firmware image

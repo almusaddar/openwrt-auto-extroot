@@ -25,7 +25,7 @@ fi
 BUILD=`dirname "$0"`"/build/"
 BUILD=`absolutize $BUILD`
 
-RELEASE="15.05"
+RELEASE="15.05.1"
 IMGTEMPDIR="${BUILD}/openwrt-build-image-extras"
 IMGBUILDERDIR="${BUILD}/OpenWrt-ImageBuilder-${RELEASE}-ar71xx-generic.Linux-x86_64"
 IMGBUILDERARCHIVE="OpenWrt-ImageBuilder-${RELEASE}-ar71xx-generic.Linux-x86_64.tar.bz2"
@@ -45,7 +45,7 @@ PREINSTALLED_PACKAGES+=" blkid mount-utils swap-utils e2fsprogs fdisk"
 PREINSTALLED_PACKAGES+=" wireless-tools firewall iptables"
 PREINSTALLED_PACKAGES+=" kmod-usb-storage-extras kmod-mmc"
 PREINSTALLED_PACKAGES+=" ppp ppp-mod-pppoe ppp-mod-pppol2tp ppp-mod-pptp kmod-ppp kmod-pppoe"
-PREINSTALLED_PACKAGES+=" luci"
+# PREINSTALLED_PACKAGES+=" luci"
 
 mkdir --parents ${BUILD}
 
