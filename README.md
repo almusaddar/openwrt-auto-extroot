@@ -2,12 +2,14 @@
 
 # New Feature:
 - vagrant support
-- 15.05.1 support
+- 15.05.1 support ( not working for now)
+- add build-essential with needed software to guest VM
+- Workaround (need improving) OpenWrt won't build on a case-insensitive filesystem
 
 # usage:
 - clone the repo
 - run vagrant up
-- a ready made TLMR3020 will be ready
+- tested with TLMR3020
 - to change router firmware just edit the vagrant file
 
 # What
