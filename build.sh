@@ -71,7 +71,7 @@ PREINSTALLED_PACKAGES+=" blkid mount-utils swap-utils e2fsprogs fdisk"
 #PREINSTALLED_PACKAGES+=" ppp ppp-mod-pppoe ppp-mod-pppol2tp ppp-mod-pptp kmod-ppp kmod-pppoe"
 # PREINSTALLED_PACKAGES+=" luci"
 
-mkdir --parents ${BUILD}
+mkdir -pv ${BUILD}
 
 rm -rf $IMGTEMPDIR
 cp -r image-extras/common/ $IMGTEMPDIR
